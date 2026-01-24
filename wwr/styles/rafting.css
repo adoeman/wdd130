@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgb(83, 149, 172);
+    --primary-color: red;
     --accent1-color: rgb(62, 87, 62);
     --heading-font: serif;
     --body-font: sans-serif;
@@ -77,7 +77,9 @@ article {
     width: 125px;
     border: 1px black;
     margin: 16px;
-    box-shadow: gray;
+    box-shadow: slategray;
 }
 
-.hero article {}
+.hero article {
+    position: absolute;
+}
