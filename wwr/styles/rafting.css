@@ -1,5 +1,5 @@
 :root {
-    --primary-color: red;
+    --primary-color: black;
     --accent1-color: rgb(62, 87, 62);
     --heading-font: serif;
     --body-font: sans-serif;
@@ -77,7 +77,7 @@ article {
     width: 125px;
     border: 1px black;
     margin: 16px;
-    box-shadow: slategray;
+    box-shadow: 20px;
 }
 
 .hero article {
