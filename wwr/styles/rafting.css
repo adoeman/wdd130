@@ -37,6 +37,15 @@ article {
     padding: 8px;
 }
 
+p {
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
@@ -68,7 +77,6 @@ h1 {
 }
 
 article {
-    position: absolute;
     border: black;
 }
 
@@ -80,13 +88,8 @@ article {
     box-shadow: 0 0 30px gray;
 }
 
-.hero article {
-    position: absolute;
-}
-
 header {
     display: grid;
-
 }
 
 nav {
