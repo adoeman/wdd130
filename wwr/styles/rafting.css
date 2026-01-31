@@ -55,7 +55,9 @@ h2 {
     height: auto;
 }
 
-.hero article {}
+.hero article {
+    position: relative;
+}
 
 .hero {
     position: relative;
