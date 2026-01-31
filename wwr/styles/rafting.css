@@ -101,11 +101,17 @@ article {
 
 header {
     display: grid;
+    padding: 1rem;
+    box-shadow: 0 0 30px gray;
+    background-color: rgb(188, 255, 175);
+    grid-template-columns: 60% 10%;
 }
 
 nav {
     display: flex;
     gap: 1rem;
+    align-items: center;
+    flex-direction: row;
 }
 
 section {
