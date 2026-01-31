@@ -57,6 +57,7 @@ h2 {
 
 .hero article {
     position: absolute;
+    top: 150px;
 }
 
 .hero {
