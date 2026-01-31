@@ -83,3 +83,18 @@ article {
 .hero article {
     position: absolute;
 }
+
+header {
+    display: grid;
+}
+
+nav {
+    display: flex;
+}
+
+figure,
+figcaption {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+}
