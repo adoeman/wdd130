@@ -56,7 +56,7 @@ h2 {
 }
 
 .hero article {
-    position: relative;
+    position: absolute;
 }
 
 .hero {
