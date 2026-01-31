@@ -86,10 +86,12 @@ article {
 
 header {
     display: grid;
+
 }
 
 nav {
     display: flex;
+    gap: 1rem;
 }
 
 figure,
