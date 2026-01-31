@@ -57,11 +57,12 @@ h2 {
 
 .hero article {
     position: absolute;
-    top: 150px;
+    top: 33rem;
 }
 
 .hero {
     position: relative;
+    padding-bottom: 2rem;
 }
 
 .hero h1 {
@@ -69,6 +70,7 @@ h2 {
 }
 
 .hero img {
+    text-align: center;
     display: block;
     width: 100%;
     height: auto;
@@ -106,9 +108,30 @@ nav {
     gap: 1rem;
 }
 
-figure,
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+section h2 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure img {
+    display: block;
+    height: auto;
+}
+
 figcaption {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    justify-items: center;
+    text-align: center;
 }
