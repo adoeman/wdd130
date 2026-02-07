@@ -5,8 +5,8 @@
     <link rel="stylesheet" href="styles/rafting.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Information</title>
-    <meta name="description" content="the info of the company">
+    <title>Contact Us and the rafting company name.</title>
+    <meta name="description" content="the info of the company and where to find the page.">
     <meta name="author" content="David Olin Evans">
 </head>
 
@@ -21,21 +21,49 @@
         </nav>
     </header>
     <main>
-        <h1>Panhandle Rafting</h1>
-        <p>123 Main River Street</p>
-        <p>Kolob, California</p>
-        <p>+1 888 888 8888</p>
+        <section class="contact">
+            <h1>Panhandle Rafting</h1>
+            <p>123 Main River Street</p>
+            <p>Kolob, California</p>
+            <p>+1 888 888 8888</p>
+        </section>
+        <form action="#"></form>
+        <fieldset>
+            <label for="q1"><span class="name"></span> Name</label>
+            <input type="text" id="q1" name="q1" required>
+            <label for="q2"><span class="email"></span> Email</label>
+            <input type="text" id="q2" name="q2" required>
+            <label for="q3"><span class="general"></span> General Inquiry</label>
+            <input type="radio" id="q3" name="q3" required>
+            <label for="q3"><span class="Reservation"></span> Reservation Question</label>
+            <input type="radio" id="q3" name="q3" required>
+            <label for="q3"><span class="website"></span> Website Suggestion</label>
+            <input type="radio" id="q3" name="q3" required>
+            <label for="q4"><span class="message"></span> Message</label>
+            <textarea name="q4" id="q4" rows="5" required></textarea>
+            <label for="q5"><span class="news"></span>Please Subscribe me to the monthly
+                newsletter</label>
+            <input type="checkbox" id="q5" name="q5" required>
+            <span class="number"><button type="submit">Submit</button></span>
+
+        </fieldset>
+
         <div class="map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21722.037131664427!2d-116.38714030895088!3d47.11368088447289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1770459041825!5m2!1sen!2sus"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              width="600" height="450" style="border:0" allowfullscreen="" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+        <div class="employee">
+            <h2>We Are Here to Serve You</h2>
+            <img src="images/Fed.jpg" alt="Fed">
+            <p>Fed</p>
+            <img src="images/Chris.jpg" alt="Chris">
+            <p>Chris</p>
+            <img src="images/Benny.jpg" alt="Benny">
+            <p>Benny</p>
 
-
-        <input type="radio">
-
-
+        </div>
     </main>
     <footer>
         <p>©2026 Panhandle Rafting David Evans</p>
