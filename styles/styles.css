@@ -29,7 +29,7 @@ h1 {
 }
 
 img {
-    width: 150px;
+    width: 100%;
     height: var(--height);
     border: var(--border-width) solid var(--color);
     padding: 2px;
@@ -56,9 +56,13 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: var(--text-align);
+    margin-left: 2rem;
+    padding: 1rem;
 }
 
 aside img {
+    display: block;
+    margin: 0 auto;
     width: 200px;
     height: var(--height);
     position: relative;
@@ -74,9 +78,10 @@ main img {
     width: 150px;
     height: var(--height);
     border: var(--border-width) solid var(--color);
-    padding: 1rem;
+    padding: 3px;
     box-shadow: 0 0 30px gray;
     float: right;
+    margin: 1rem;
 }
 
 footer {
@@ -115,4 +120,9 @@ nav {
 .grid {
     display: grid;
     align-items: center;
+}
+
+main .grid {
+    margin: 0;
+    padding: 1rem;
 }

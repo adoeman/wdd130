@@ -17,8 +17,7 @@ body {
 }
 
 header,
-main,
-footer {
+main {
     width: 840px;
     margin: 0 auto;
 }
@@ -87,10 +86,6 @@ h1 {
     color: white;
 }
 
-article {
-    border: black;
-}
-
 .hero article img {
     float: right;
     width: 125px;
@@ -139,5 +134,20 @@ figure img {
 }
 
 figcaption {
+    text-align: center;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: var(--border-width) solid var(--color);
+    text-align: var(--text-align);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    flex: 1;
     text-align: center;
 }
