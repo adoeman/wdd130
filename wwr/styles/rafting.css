@@ -64,10 +64,6 @@ h2 {
     padding-bottom: 2rem;
 }
 
-.hero h1 {
-    position: absolute;
-}
-
 .hero img {
     text-align: center;
     display: block;
